@@ -1,0 +1,633 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <title>Devikala S — UI/UX Portfolio</title>
+    <meta
+      name="description"
+      content="Designing experiences that connect people, ideas, and technology. Aspiring UI/UX Designer portfolio."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Typography: luxury + clean hierarchy -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="data:," />
+
+    <script type="module" src="/src/main.js" defer></script>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Elegant cursor interaction layer (non-flashy) -->
+    <div class="cursor" aria-hidden="true"></div>
+
+    <!-- Subtle background -->
+    <div class="bg" aria-hidden="true">
+      <div class="blob blob--a"></div>
+      <div class="blob blob--b"></div>
+      <div class="blob blob--c"></div>
+      <div class="grid"></div>
+    </div>
+
+    <header class="header" data-elevate>
+      <div class="container header__inner">
+        <div class="brand" aria-label="Devikala S">
+          <span class="brand__mark" aria-hidden="true">DS</span>
+          <span class="brand__name">Devikala S</span>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <button
+            class="nav__toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="navMenu"
+          >
+            Menu
+          </button>
+          <ul id="navMenu" class="nav__list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#why">Why UI/UX</a></li>
+            <li><a href="#philosophy">Philosophy</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Featured Work</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#creative">Creative Corner</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Smooth page transitions (no flashy effects) -->
+    <div class="page" data-transition>
+      <main id="main">
+        <!-- Landing -->
+        <section class="hero" aria-label="Landing">
+          <div class="container hero__grid">
+            <div class="hero__copy">
+              <div class="eyebrow" data-reveal>Aspiring UI/UX Designer</div>
+              <h1 class="h1" data-reveal>Hi, I'm Devikala</h1>
+              <p class="lead" data-reveal>
+                <span class="typing" data-typing>
+                  Crafting intuitive digital experiences through creativity, empathy, and strategic thinking.
+                </span>
+                <span class="typing__cursor" aria-hidden="true">|</span>
+              </p>
+
+              <div class="hero__cta" data-reveal>
+                <a class="btn btn--primary" href="#skills">Skills</a>
+                <a class="btn btn--ghost" href="#contact">Let’s talk</a>
+              </div>
+
+              <div class="meta" data-reveal>
+                <div class="meta__item">
+                  <span class="meta__value"
+                    >Designing experiences that connect people, ideas, and technology.</span
+                  >
+                </div>
+              <div class="meta__item">
+
+                <span class="meta__value">B.Com E-Commerce Student • Creative Problem Solver</span>
+              </div>
+
+              </div>
+            </div>
+
+            <aside class="hero__panel" data-reveal>
+              <div class="hero__image" aria-hidden="true">
+                <img id="profileImage" src="/Devikala.png" alt="Devikala S" />
+                <div class="sparkle-wrap" aria-hidden="true">
+                  <button id="sparkleBtn" class="sparkle-btn" type="button">SPARKLE 👆</button>
+                </div>
+              </div>
+
+
+
+              <div class="panel">
+                <div class="panel__top">
+                  <div class="chip">PROFILE</div>
+                </div>
+                <p class="panel__text">
+                  I combine business understanding, communication skills, and design thinking to build
+                  meaningful digital experiences.
+                </p>
+
+                <div class="metrics" aria-label="Highlights">
+                  <div class="metrics__item">
+                    <span class="metrics__num">93.17%</span>
+                    <span class="metrics__label">Higher Secondary</span>
+                  </div>
+                  <div class="metrics__item">
+                    <span class="metrics__num">CGPA 8.0%</span>
+                    <span class="metrics__label">Consistent performance</span>
+                  </div>
+                  <div class="metrics__item">
+                    <span class="metrics__num">Leadership</span>
+                    <span class="metrics__label">MC • Coordination • Public speaking</span>
+                  </div>
+                </div>
+
+                <div class="panel__bottom panel__bottom--compact"></div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section" aria-label="About">
+          <div class="container">
+            <div class="section__head" data-reveal>
+              <h2 class="h2">About</h2>
+              <p class="section__sub">Story-driven. Business-aware. UX-minded.</p>
+            </div>
+
+            <div class="about" role="list">
+              <article class="story" data-reveal role="listitem">
+                <h3 class="h3">B.Com E-Commerce Student</h3>
+                <p>
+                  Commerce taught me how decisions impact people, expectations, and outcomes. That
+                  perspective directly informs my UX choices.
+                </p>
+              </article>
+
+              <article class="story" data-reveal role="listitem">
+                <h3 class="h3">Leadership Experience</h3>
+                <p>
+                  As Vice President, Master of Ceremonies, Event Coordinator, and Public Speaker, I’ve
+                  learned how clarity, trust, and timing shape teams.
+                </p>
+              </article>
+
+              <article class="story" data-reveal role="listitem">
+                <h3 class="h3">Communication & Public Speaking</h3>
+                <p>
+                  I structure ideas for different audiences—an essential skill for presenting research
+                  findings and design rationale.
+                </p>
+              </article>
+
+              <article class="story" data-reveal role="listitem">
+                <h3 class="h3">Creative Writing (Tamil Poetry)</h3>
+                <p>
+                  Writing sharpened my empathy and storytelling. UX is also storytelling—guiding users
+                  through meaningful journeys.
+                </p>
+              </article>
+
+              <article class="story story--wide" data-reveal role="listitem">
+                <h3 class="h3">Continuous Learner</h3>
+                <p>
+                  I’m disciplined about feedback, iteration, and accessibility—building designs that
+                  remain useful in real-world contexts.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Why UI/UX (timeline) -->
+        <section id="why" class="section section--alt" aria-label="Why UI/UX">
+          <div class="container">
+            <div class="section__head" data-reveal>
+              <h2 class="h2">Why I chose UI/UX Design</h2>
+              <p class="section__sub">
+                A progression of interests—toward problem solving that respects people.
+              </p>
+            </div>
+
+            <div class="timeline" data-reveal>
+              <div class="timeline__line" aria-hidden="true"></div>
+
+              <article class="t-item" aria-label="User behavior">
+                <div class="t-dot" aria-hidden="true"></div>
+                <div class="t-card">
+                  <h3>Understanding user behavior</h3>
+                  <p>
+                    I’m drawn to how people think, hesitate, and decide—then using design to reduce
+                    friction.
+                  </p>
+                </div>
+              </article>
+
+              <article class="t-item" aria-label="Solving real problems">
+                <div class="t-dot" aria-hidden="true"></div>
+                <div class="t-card">
+                  <h3>Solving real problems</h3>
+                  <p>
+                    UI/UX feels purposeful: fix confusion, improve clarity, and design outcomes that
+                    actually work.
+                  </p>
+                </div>
+              </article>
+
+              <article class="t-item" aria-label="Creativity and technology">
+                <div class="t-dot" aria-hidden="true"></div>
+                <div class="t-card">
+                  <h3>Creativity × technology</h3>
+                  <p>
+                    I enjoy turning ideas into systems—where good design is intentional, not accidental.
+                  </p>
+                </div>
+              </article>
+
+              <article class="t-item" aria-label="Curiosity about interactions">
+                <div class="t-dot" aria-hidden="true"></div>
+                <div class="t-card">
+                  <h3>Curiosity about interaction</h3>
+                  <p>
+                    Every click is a decision. I want interfaces that feel understandable, accessible,
+                    and human.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Design Philosophy -->
+        <section id="philosophy" class="section" aria-label="Design Philosophy">
+          <div class="container">
+            <div class="section__head" data-reveal>
+              <h2 class="h2">Design Philosophy</h2>
+              <p class="section__sub">Premium UX comes from restraint, empathy, and measurable improvement.</p>
+            </div>
+
+            <div class="philos" data-reveal>
+              <article class="philo">
+                <h3>Simplicity</h3>
+                <p>Removing complexity without removing value—only what the user needs.</p>
+              </article>
+              <article class="philo">
+                <h3>Empathy</h3>
+                <p>Understanding needs before solutions—design decisions grounded in real contexts.</p>
+              </article>
+              <article class="philo">
+                <h3>Accessibility</h3>
+                <p>Creating experiences for everyone—contrast, structure, and usability by design.</p>
+              </article>
+              <article class="philo">
+                <h3>Continuous Improvement</h3>
+                <p>Iterating based on feedback and research, refining outcomes over time.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section section--alt" aria-label="Skills">
+          <div class="container">
+            <div class="section__head" data-reveal>
+              <h2 class="h2">Skills</h2>
+              <p class="section__sub"> UI design + UX + technical + communication.</p>
+            </div>
+
+            <div class="skill-grid" data-reveal>
+              <div class="skill-col">
+                <h3 class="skill-col__title">UI Design</h3>
+                <ul class="skills">
+                  <li><span class="skill-icon" aria-hidden="true">◈</span> Figma</li>
+                  <li><span class="skill-icon" aria-hidden="true">▣</span> Canva</li>
+                  <li><span class="skill-icon" aria-hidden="true">✦</span> Adobe Express</li>
+                  <li><span class="skill-icon" aria-hidden="true">◼︎</span> Visual Design</li>
+                  <li><span class="skill-icon" aria-hidden="true">▦</span> Layout Design</li>
+                  <li><span class="skill-icon" aria-hidden="true">Aa</span> Typography</li>
+                  <li><span class="skill-icon" aria-hidden="true">⬤</span> Color Theory</li>
+                </ul>
+              </div>
+
+
+              <div class="skill-col">
+                <h3 class="skill-col__title">UX Design</h3>
+                <ul class="skills">
+                  <li><span class="skill-icon" aria-hidden="true">⌁</span> User Research</li>
+                  <li><span class="skill-icon" aria-hidden="true">➜</span> User Journey Mapping</li>
+                  <li><span class="skill-icon" aria-hidden="true">▱</span> Wireframing</li>
+                  <li><span class="skill-icon" aria-hidden="true">⟲</span> Prototyping</li>
+                </ul>
+              </div>
+
+
+              <div class="skill-col">
+                <h3 class="skill-col__title">Technical</h3>
+                <ul class="skills">
+                  <li><span class="skill-icon" aria-hidden="true">⟨⟩</span> HTML</li>
+                  <li><span class="skill-icon" aria-hidden="true">▤</span> CSS</li>
+                  <li><span class="skill-icon" aria-hidden="true">∷</span> Java</li>
+                  <li><span class="skill-icon" aria-hidden="true">⬚</span> OOP</li>
+                  <li><span class="skill-icon" aria-hidden="true">⤴</span> DSA</li>
+                </ul>
+              </div>
+
+              <div class="skill-col">
+                <h3 class="skill-col__title">Professional</h3>
+                <ul class="skills">
+                  <li><span class="skill-icon" aria-hidden="true">✦</span> Communication</li>
+                  <li><span class="skill-icon" aria-hidden="true">⟡</span> Leadership</li>
+                  <li><span class="skill-icon" aria-hidden="true">◍</span> Team Collaboration</li>
+                  <li><span class="skill-icon" aria-hidden="true">▣</span> Event Management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Leadership Experience -->
+        <section id="leadership" class="section section--alt" aria-label="Leadership">
+          <div class="container">
+            <div class="section__head" data-reveal>
+              <h2 class="h2">Leadership Experience</h2>
+              <p class="section__sub">Differentiator: communication, teamwork, and user understanding.</p>
+            </div>
+
+            <div class="leadership" data-reveal>
+              <article class="lead-card">
+                <h3>Vice President</h3>
+                <p><strong>Impact:</strong> improved coordination, clearer decision-making, and team ownership.</p>
+                <ul>
+                  <li>Communication</li>
+                  <li>Teamwork</li>
+                  <li>Problem Solving</li>
+                  <li>User Understanding</li>
+                </ul>
+              </article>
+
+              <article class="lead-card">
+                <h3>Master of Ceremonies</h3>
+                <p><strong>Impact:</strong> strengthened clarity under pressure and audience-focused delivery.</p>
+                <ul>
+                  <li>Messaging structure</li>
+                  <li>Confidence</li>
+                  <li>Timing</li>
+                  <li>Empathy</li>
+                </ul>
+              </article>
+
+              <article class="lead-card">
+                <h3>Event Coordinator</h3>
+                <p><strong>Impact:</strong> improved execution quality by translating plans into actions.</p>
+                <ul>
+                  <li>Process thinking</li>
+                  <li>Collaboration</li>
+                  <li>Risk awareness</li>
+                </ul>
+              </article>
+
+              <article class="lead-card">
+                <h3>Public Speaker</h3>
+                <p><strong>Impact:</strong> sharpened how to present insights and connect with people.</p>
+                <ul>
+                  <li>Storytelling</li>
+                  <li>Persuasion</li>
+                  <li>Clarity</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Achievements + Education -->
+        <section id="education" class="section" aria-label="Education">
+          <div class="container">
+            <div class="section__head" data-reveal>
+              <h2 class="h2">Achievements & Education</h2>
+              <p class="section__sub">Minimal, but meaningful milestones that show consistency.</p>
+            </div>
+
+            <div class="edu-grid" data-reveal>
+              <div class="milestones" aria-label="Certificates">
+                <h3 class="h3">Certificates</h3>
+                <ul class="timeline-simple">
+                  <li>
+                    <span class="ms-date">UI/UX for Beginners</span>
+                    <span class="ms-text">
+                      <a
+                        class="link"
+                        href="https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/4707919/original/DeviKala._S20240521-70-tt1if3.jpg"
+                        target="_blank"
+                        rel="noreferrer"
+                        >View</a
+                      >
+                    </span>
+                  </li>
+                  <li>
+                    <span class="ms-date">Frontend Development - HTML</span>
+                    <span class="ms-text">
+                      <a
+                        class="link"
+                        href="https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/4703548/original/DeviKala20240521-73-9ypo6j.jpg"
+                        target="_blank"
+                        rel="noreferrer"
+                        >View</a
+                      >
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="milestones" aria-label="Achievements">
+                <h3 class="h3">Achievements</h3>
+                <ul class="timeline-simple">
+                  <li>
+                    <span class="ms-date">Academic Proficiency</span>
+                    <span class="ms-text">Rank Holder</span>
+                  </li>
+                  <li>
+                    <span class="ms-date">Paper Presentation</span>
+                    <span class="ms-text">Award</span>
+                  </li>
+                  <li>
+                    <span class="ms-date">Tamil Book Review</span>
+                    <span class="ms-text">Presentation</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="education" aria-label="Education timeline">
+                <h3 class="h3">Education</h3>
+                <ol class="edu-steps">
+                  <li>
+                    <div class="edu-steps__title">Higher Secondary</div>
+                    <div class="edu-steps__meta">93.17%</div>
+                  </li>
+                  <li>
+                    <div class="edu-steps__title">B.Com (E-Commerce)</div>
+                    <div class="edu-steps__meta">CGPA 8.0</div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Creative Corner -->
+        <section id="creative" class="section section--alt" aria-label="Creative Corner">
+
+          <div class="container">
+
+
+            <div class="section__head" data-reveal>
+              <h2 class="h2">Beyond Design</h2>
+              <p class="section__sub">Tamil poetry, storytelling, and communication—fueling UX thinking.</p>
+            </div>
+
+            <div class="creative" data-reveal>
+              <div class="creative__card">
+                <h3>Tamil Poetry</h3>
+                <p>I write to understand emotion and nuance. UX is about guiding feelings toward clarity.</p>
+              </div>
+              <div class="creative__card">
+                <h3>Creative Writing</h3>
+                <p>Story structure trains me to design flows that make sense—beginning, middle, and resolution.</p>
+              </div>
+              <div class="creative__card">
+                <h3>Storytelling</h3>
+                <p>I translate research into narratives recruiters can understand instantly.</p>
+              </div>
+              <div class="creative__card creative__card--wide">
+                <h3>How creativity influences design thinking</h3>
+                <p>
+                  Creativity helps me explore alternatives, question assumptions, and communicate ideas with empathy.
+                  That’s how I create experiences that connect people, ideas, and technology.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Edits -->
+        <section id="edits" class="section section--alt" aria-label="Edits">
+          <div class="container">
+              <div class="section__head" data-reveal>
+              <h2 class="h2">Edits</h2>
+              </div>
+
+
+            <div class="edits-grid" data-reveal>
+              <a class="edit-card" href="https://canva.link/3psmp5ga2236dwr" target="_blank" rel="noreferrer" aria-label="Edit 1">
+                <div class="edit-card__glow" aria-hidden="true"></div>
+                <div class="edit-card__top">
+                  <span class="edit-card__tag">Edit</span>
+                  <span class="edit-card__arrow" aria-hidden="true">↗</span>
+                </div>
+                <h3 class="edit-card__title">Visual Showcase 01</h3>
+                <p class="edit-card__meta">Click to open</p>
+              </a>
+
+              <a class="edit-card" href="https://canva.link/u5cavl11pjhvesw" target="_blank" rel="noreferrer" aria-label="Edit 2">
+                <div class="edit-card__glow" aria-hidden="true"></div>
+                <div class="edit-card__top">
+                  <span class="edit-card__tag">Edit</span>
+                  <span class="edit-card__arrow" aria-hidden="true">↗</span>
+                </div>
+                <h3 class="edit-card__title">Visual Showcase 02</h3>
+                <p class="edit-card__meta">Click to open</p>
+              </a>
+
+              <a class="edit-card" href="https://canva.link/6xd1kvcwvmeckvn" target="_blank" rel="noreferrer" aria-label="Edit 3">
+                <div class="edit-card__glow" aria-hidden="true"></div>
+                <div class="edit-card__top">
+                  <span class="edit-card__tag">Edit</span>
+                  <span class="edit-card__arrow" aria-hidden="true">↗</span>
+                </div>
+                <h3 class="edit-card__title">Visual Showcase 03</h3>
+                <p class="edit-card__meta">Click to open</p>
+              </a>
+
+              <a class="edit-card" href="https://canva.link/4xuh46eg1kfjwuf" target="_blank" rel="noreferrer" aria-label="Edit 4">
+                <div class="edit-card__glow" aria-hidden="true"></div>
+                <div class="edit-card__top">
+                  <span class="edit-card__tag">Edit</span>
+                  <span class="edit-card__arrow" aria-hidden="true">↗</span>
+                </div>
+                <h3 class="edit-card__title">Visual Showcase 04</h3>
+                <p class="edit-card__meta">Click to open</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section" aria-label="Contact">
+
+          <div class="container">
+            <div class="contact" data-reveal>
+              <div class="contact__left">
+                <h2 class="h2">Let’s create meaningful digital experiences together.</h2>
+                <p class="section__sub">Reach out for collaborations, UX mentorship, or portfolio review.</p>
+
+                <div class="contact__cta">
+                  <a class="btn btn--primary" href="mailto:devikala@example.com">Email me</a>
+                  <a class="btn btn--ghost" href="#edits">View edits</a>
+
+                </div>
+
+                <div class="contact__note">
+                  Replace <strong>devikala@example.com</strong> with your real email and provide your resume file path when ready.
+                </div>
+              </div>
+
+              <div class="contact__right" aria-label="Links">
+                  <div class="contact-links">
+                  <a class="contact-link" href="https://www.linkedin.com/in/devikala" target="_blank" rel="noreferrer" data-link="linkedin">
+                    <span class="contact-link__title">LinkedIn</span>
+                    <span class="contact-link__meta">/in/devikala</span>
+                  </a>
+                  <a class="contact-link" href="https://github.com/Devikala-S" target="_blank" rel="noreferrer" data-link="github">
+                    <span class="contact-link__title">GitHub</span>
+                    <span class="contact-link__meta">/Devikala-S</span>
+                  </a>
+                  <a class="contact-link" href="mailto:devikala1234567@gmail.com">
+                    <span class="contact-link__title">Email</span>
+                    <span class="contact-link__meta">devikala1234567@gmail.com</span>
+                  </a>
+                </div>
+
+
+                <form class="contact-form" action="#" method="post" aria-label="Quick message">
+                  <label class="field">
+                    <span>Name</span>
+                    <input name="name" type="text" autocomplete="name" placeholder="Your name" />
+                  </label>
+                  <label class="field">
+                    <span>Email</span>
+                    <input name="email" type="email" autocomplete="email" placeholder="you@example.com" />
+                  </label>
+                  <label class="field">
+                    <span>Message</span>
+                    <textarea name="message" rows="4" placeholder="What would you like to collaborate on?"></textarea>
+                  </label>
+                  <button class="btn btn--primary" type="button" data-send-message>Send message</button>
+                  <p class="form-hint" aria-live="polite" data-form-hint></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <div class="container footer__inner">
+            <span class="muted">© <span id="year"></span> Devikala S</span>
+            <a class="muted link" href="#main">Back to top</a>
+          </div>
+        </footer>
+      </main>
+
+      <!-- transition overlay -->
+      <div class="transition" aria-hidden="true"></div>
+    </div>
+  </body>
+</html>
+
